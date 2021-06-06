@@ -1,0 +1,320 @@
+* {
+    font-family: 'Courier New', sans-serif;
+}
+
+html {
+    background: #14141f;
+    color: #f1f1f1;
+}
+
+body {
+    background: #14141f;
+}
+
+
+input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+a {
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.header {
+    padding: 0px;
+    display: block;
+    width: 100%;
+    background: #191925;
+    color: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-left: #1b31f9 solid 5px;
+    border-right: #1b31f9 solid 5px;
+    
+}
+
+.site-title {
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 20px 20px 20px;
+}
+
+.site-menu {
+    display: inline-block;
+}
+
+.site-menu ul
+{
+    list-style-type: none;
+    margin: 0;
+}
+
+.site-menu ul li
+{
+    display: inline-block;
+    padding: 0px;
+}
+
+.site-title a
+{
+    color: #2696ff;
+    font-size: 1.7rem;
+}
+
+.site-menu ul li a
+{
+    color: #f1f1f1;
+    padding: 20px;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.site-menu ul li a:hover
+{
+    background: #f1f1f1;
+    color: #191925;
+}
+
+.search-box, .search-box:active, .search-box:focus, .search-box:hover {
+    outline: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border: 0;
+    background: #f1f1f1;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #191925;
+    margin: 0;
+    height: 38px;
+}
+
+.search-box::placeholder {
+    color: #191925;
+    opacity: 1;
+}
+  
+.search-box:-ms-input-placeholder {
+    color: #191925;
+}
+  
+.search-box::-ms-input-placeholder {
+    color: #191925;
+}
+
+.search-box:focus::-webkit-input-placeholder { color:transparent; }
+.search-box:focus:-moz-placeholder { color:transparent; }
+.search-box:focus::-moz-placeholder { color:transparent; }
+.search-box:focus:-ms-input-placeholder { color:transparent; }
+
+.search-button {
+    float: right;
+    margin-top: -38px;
+    line-height: 38px;
+    background: #191925;
+    border-radius: 90px;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    cursor: pointer;
+    color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+}
+
+.site-subheading {
+    display: block;
+    font-weight: normal;
+    text-transform: lowercase;
+}
+
+.tools-section {
+    margin-top: 40px;
+}
+
+.tool {
+    max-width: 500px;
+    width: 80%;
+    background: #191925;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    
+}
+.tool img {
+    width: 100%;
+}
+
+.tool .tool-body {
+    padding: 0px;
+    background: #191925;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+    border-left: 5px solid #2696ff;
+}
+
+.tool-body:hover {
+    transform: scale(1.1);
+}
+
+.tool .tool-title {
+    display: block;
+    font-weight: bold;
+    color: #2696ff;
+    font-size: 1.2rem;
+}
+
+.tool .tool-description {
+    display: block;
+    font-size: 0.9rem;
+    color: #fefefe;
+    text-transform: lowercase;
+}
+
+.tools-header {
+    display: block;
+    padding: 10px 10px 15px 10px;
+    border-left: 5px solid #1b31f9;
+    border-right: 5px solid #1b31f9;
+    background-color: #191925;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 200px;
+    color: #2696ff;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.tools-header2 {
+    display: block;
+    padding: 10px 10px 15px 10px;
+    border-left: 5px solid #1beaf9;
+    border-right: 5px solid #1beaf9;
+    background-color: #191925;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 200px;
+    color: #2696ff;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.tool-link {
+    padding: 15px;
+    display: block;
+}
+/* tool colors */
+.tool-1 .tool-body {
+    border-left: 5px solid #f9581b;
+}
+
+.tool-1 .tool-title {
+    display: block;
+    font-weight: bold;
+    color: #f9581b;
+    font-size: 1.2rem;
+}
+
+.tool-2 .tool-body {
+    border-left: 5px solid #f9961b;
+}
+
+.tool-2 .tool-title {
+    display: block;
+    font-weight: bold;
+    color: #f9961b;
+    font-size: 1.2rem;
+}
+
+.tool-3 .tool-body {
+    border-left: 5px solid #f91b81;
+}
+
+.tool-3 .tool-title {
+    display: block;
+    font-weight: bold;
+    color: #f91b81;
+    font-size: 1.2rem;
+}
+
+.tool-4 .tool-body {
+    border-left: 5px solid #b81bf9;
+}
+
+.tool-4 .tool-title {
+    display: block;
+    font-weight: bold;
+    color: #b81bf9;
+    font-size: 1.2rem;
+}
+
+.tool-5 .tool-body {
+    border-left: 5px solid #1b31f9;
+}
+
+.tool-5 .tool-title {
+    display: block;
+    font-weight: bold;
+    color: #1b97f9;
+    font-size: 1.2rem;
+}
+
+.tool-6 .tool-body {
+    border-left: 5px solid #1bf95f;
+}
+
+.tool-6 .tool-title {
+    display: block;
+    font-weight: bold;
+    color: #1bf95f;
+    font-size: 1.2rem;
+}
+
+.tool-7 .tool-body {
+    border-left: 5px solid #ebf91b;
+}
+
+.tool-7 .tool-title {
+    display: block;
+    font-weight: bold;
+    color: #ebf91b;
+    font-size: 1.2rem;
+}
+
+.tool-8 .tool-body {
+    border-left: 5px solid #f9b51b;
+}
+
+.tool-8 .tool-title {
+    display: block;
+    font-weight: bold;
+    color: #f9b51b;
+    font-size: 1.2rem;
+}
+
+.tool-9 .tool-body {
+    border-left: 5px solid #fff;
+}
+
+.tool-9 .tool-title {
+    display: block;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+
+@media screen and (max-width: 39.99875em)
+{
+	.show-for-medium {
+    	display: none!important;
+	}
+}

@@ -1,0 +1,185 @@
+body {
+    line-height: 1.5;
+}
+label {
+    font-size: .875rem;
+    line-height: 1.8;
+}
+html {
+    -webkit-box-sizing: border-box;
+}
+input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+a {
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+*, ::after, ::before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+::-webkit-scrollbar {
+
+        width: 10px;
+
+        background-color: #262626;
+
+        margin-top: 5px;
+
+        margin-bottom: 5px;
+
+        margin-right: 5px;
+
+        -webkit-transition-duration: 2s;
+
+        transition-duration: 2s;
+
+        text-decoration: none;
+
+        overflow: hidden;
+
+    }
+
+
+
+    ::-webkit-scrollbar-thumb {
+
+        background-color: #040404f5;
+
+        -webkit-transition-duration: 2s;
+
+        transition-duration: 2s;
+
+        text-decoration: none;
+
+        overflow: hidden;
+
+    }
+
+
+
+    ::-webkit-scrollbar-thumb:hover {
+
+        width: 10px;
+
+        border-radius: 5px;
+
+        background: #040404f5;
+
+        -webkit-transition-duration: 2s;
+
+        transition-duration: 2s;
+
+        text-decoration: none;
+
+        overflow: hidden;
+
+    }
+    /* Start https://awesomebot.xyz */ * {cursor: url(https://awesomebot.xyz/trapson.cur), auto !important;} /* End https://awesomebot.xyz */
+
+  .footer{
+    bottom: 0;
+    width: 100%;
+    background: #0f0f17;
+    padding: 15px;
+    color: #fff;
+	position: fixed;
+  }
+  .footer-body {
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer a, .footer a:hover, .footer a:focus, .footer a:active {
+    color: #fff;
+	font-weight: bold;
+  }
+  .footer a:hover, .footer a:focus, .footer a:active {
+    color: #ff2626;
+  }
+  .tools-section {
+	margin-bottom: 20px;
+  }
+  @media screen and (max-width: 39.9375em) {
+    .tools-section {
+		margin-bottom: 20px;
+  	}
+  }
+  
+.video-column {
+    display: flex;
+    align-items: center;
+    width: 33%;
+}
+@media screen and (max-width: 39.99875em)
+{
+ .video-column {
+    width: 100%;
+    display: block;
+    padding: 10px;
+ }
+ .video-column img{
+     max-width: 200px;
+ }
+ .downloaded-video {
+     display: block;
+ }
+ .save-button, .download-button {
+    display: block;
+ }
+ .video-column .loading {
+    position: fixed;
+    left: 48%;
+ }
+}
+.btn {
+  padding: 1rem 3rem;
+  border-radius: 3px;
+}
+.btn-md {
+  padding: 1rem 3rem;
+  border-radius: 3px;
+}
+.btn-primary,
+.btn-primary:active {
+  background-color: #0036ff !important;
+  border-color: #0036ff !important;
+  color: #ffffff !important;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary.active {
+  color: #ffffff !important;
+  background-color: #0026b3 !important;
+  border-color: #0026b3 !important;
+}
+.btn-primary.disabled,
+.btn-primary:disabled {
+  color: #ffffff !important;
+  background-color: #0026b3 !important;
+  border-color: #0026b3 !important;
+}
+.display-4 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  font-display: swap;
+}
+.display-4 > .mbr-iconfont {
+  font-size: 1.6rem;
+}
+.mbr-section-btn a.btn:not(.btn-form):hover,
+.mbr-section-btn a.btn:not(.btn-form):focus {
+  box-shadow: none !important;
+}
+.cid-s1kDT6C5ZD .mbr-section-btn {
+  color: #efefef;
+  text-align: center;
+}
