@@ -1,26 +1,9 @@
-body {
-    line-height: 1.5;
-}
+
 label {
     font-size: .875rem;
     line-height: 1.8;
 }
-html {
-    -webkit-box-sizing: border-box;
-}
-input {
-    width: 100%;
-    margin-bottom: 15px;
-    padding: 15px;
-    font-size: 1rem;
-    line-height: 1.5;
-}
 
-a {
-    line-height: inherit;
-    text-decoration: none;
-    cursor: pointer;
-}
 *, ::after, ::before {
     -webkit-box-sizing: inherit;
     box-sizing: inherit;
@@ -141,16 +124,16 @@ a {
 }
 .btn {
   padding: 1rem 3rem;
-  border-radius: 3px;
+  border-radius: 0px;
 }
 .btn-md {
   padding: 1rem 3rem;
-  border-radius: 3px;
+  border-radius: 0px;
 }
 .btn-primary,
 .btn-primary:active {
-  background-color: #0036ff !important;
-  border-color: #0036ff !important;
+  background-color: #0077ff !important;
+  border-color: #0077ff !important;
   color: #ffffff !important;
 }
 .btn-primary:hover,
@@ -158,14 +141,14 @@ a {
 .btn-primary.focus,
 .btn-primary.active {
   color: #ffffff !important;
-  background-color: #0026b3 !important;
-  border-color: #0026b3 !important;
+  background-color: #0077ff !important;
+  border-color: #0077ff !important;
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #ffffff !important;
-  background-color: #0026b3 !important;
-  border-color: #0026b3 !important;
+  background-color: #0077ff !important;
+  border-color: #0077ff !important;
 }
 .display-4 {
   font-family: 'Rubik', sans-serif;

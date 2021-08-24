@@ -5,6 +5,7 @@
 html {
     background: #14141f;
     color: #f1f1f1;
+    -webkit-box-sizing: border-box;
 }
 
 body {
@@ -36,8 +37,8 @@ a {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    border-left: #1b31f9 solid 5px;
-    border-right: #1b31f9 solid 5px;
+    border-left: #0077ff solid 5px;
+    border-right: #0077ff solid 5px;
     
 }
 
@@ -181,9 +182,9 @@ a {
 
 .tools-header {
     display: block;
-    padding: 10px 10px 15px 10px;
-    border-left: 5px solid #1b31f9;
-    border-right: 5px solid #1b31f9;
+    padding: 10px 10px 10px 10px;
+    border-left: 5px solid #0077ff;
+    border-right: 5px solid #0077ff;
     background-color: #191925;
     margin-left: auto;
     margin-right: auto;
@@ -195,7 +196,7 @@ a {
 }
 .tools-header2 {
     display: block;
-    padding: 10px 10px 15px 10px;
+    padding: 10px 10px 10px 10px;
     border-left: 5px solid #1beaf9;
     border-right: 5px solid #1beaf9;
     background-color: #191925;
@@ -257,7 +258,7 @@ a {
 }
 
 .tool-5 .tool-body {
-    border-left: 5px solid #1b31f9;
+    border-left: 5px solid #0077ff;
 }
 
 .tool-5 .tool-title {
